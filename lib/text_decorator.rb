@@ -14,4 +14,9 @@ class TextDecorator
   def pipe
     text.split(//).join("|")
   end
+
+  def title_case
+    # TODO: Uncomment the line below so the code works
+    # text.split(" ").map(&:capitalize).join(" ")
+  end
 end
