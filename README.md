@@ -36,6 +36,13 @@ text_decorator.pipe
 # => "M|y| |s|a|m|p|l|e| |t|e|x|t"
 ```
 
+<!-- TODO: add usage instructions for title_case -->
+
+<!--
+text_decorator.title_case
+# => "My Sample Text"
+-->
+
 
 ## Development
 
