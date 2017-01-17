@@ -34,6 +34,9 @@ text_decorator.double
 
 text_decorator.pipe
 # => "M|y| |s|a|m|p|l|e| |t|e|x|t"
+
+text_decorator.title_case
+# => "My Sample Text"
 ```
 
 
