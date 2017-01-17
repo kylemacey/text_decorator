@@ -12,4 +12,8 @@ class TextDecoratorTest < Minitest::Test
   def test_reader
     assert_equal @text_decorator.text, "Hello world"
   end
+
+  def test_double
+    assert_equal @text_decorator.double, "Hello worldHello world"
+  end
 end
