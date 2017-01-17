@@ -10,4 +10,8 @@ class TextDecorator
   def double
     text + text
   end
+
+  def pipe
+    text.split(//).join("|")
+  end
 end
