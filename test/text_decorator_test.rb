@@ -10,14 +10,14 @@ class TextDecoratorTest < Minitest::Test
   end
 
   def test_reader
-    assert_equal @text_decorator.text, "Hello world"
+    assert_equal "Hello world", @text_decorator.text
   end
 
   def test_double
-    assert_equal @text_decorator.double, "Hello worldHello world"
+    assert_equal "Hello worldHello world", @text_decorator.double
   end
 
   def test_pipe
-    assert_equal @text_decorator.pipe, "H|e|l|l|o| |w|o|r|l|d"
+    assert_equal "H|e|l|l|o| |w|o|r|l|d", @text_decorator.pipe
   end
 end
