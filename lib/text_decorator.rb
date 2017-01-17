@@ -16,6 +16,6 @@ class TextDecorator
   end
 
   def title_case
-    # text.split(" ").map(&:capitalize).join(" ")
+    text.split(" ").map(&:capitalize).join(" ")
   end
 end
