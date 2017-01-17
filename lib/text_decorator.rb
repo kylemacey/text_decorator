@@ -1,5 +1,9 @@
 require "text_decorator/version"
 
-module TextDecorator
-  # Your code goes here...
+class TextDecorator
+  attr_accessor :text
+
+  def initialize(text)
+    @text = text
+  end
 end
